@@ -1,7 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Accordion from 'react-bootstrap/Accordion';
-import { useState } from 'react';
 import { Link } from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,6 +12,8 @@ function Header() {
 
             <div className='pe-5' style={{display: 'inline-flex', gap:'1vw', justifyContent:'flex-end'}}>
                 <Link to="/pays" style={{textDecoration: "underline", color: "white", fontSize:'1vw'}}> Pays
+                </Link>
+                <Link to="/langues" style={{textDecoration: "underline", color: "white", fontSize:'1vw'}}> Langues
                 </Link>
             </div>
 
